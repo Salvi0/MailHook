@@ -14,10 +14,10 @@ class Emojis:
 
 class Logs:
     def __init__(self):
-        self.cmds: int = 889112702146986024
-        self.cmd_errs: int = 889115230355996703
-        self.event_errs: int = 888368018915209236
-        self.add_remove: int = 889116736077570068
+        self.cmds: int = 794621421162201108
+        self.cmd_errs: int = 794621421162201108
+        self.event_errs: int = 794621421162201108
+        self.add_remove: int = 794621421162201108
 
 
 class Config:
@@ -26,7 +26,7 @@ class Config:
         self.logs = Logs()
         self.prefixes = ['<', '?']
         self.status = 'my dms'
-        self.owners = [321750582912221184, 558861606063308822]
+        self.owners = [506513851576221706]
         self.client_secret = os.environ.get('CLIENT_SECRET')
         self.bot_lists = [733135548566470726, 333949691962195969]
-        self.transcript_db_channel = 897480469870948432
+        self.transcript_db_channel = 812094808213946399
